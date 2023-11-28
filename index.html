@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do</title>
+</head>
+<body>
+    <div class = heading >
+        <h1>To Do</h1>
+    </div>
+    <div class = inputbox>
+        <input id = input class = input>
+        <button id = input onclick="newItem();document.getElementById('input').value = ''">Create New Task</button>
+        <button onclick = "clearStorage()">Clear Tasks</button>
+    </div>
+    <h2 class = taskheader>Tasks</h2>
+    <div id = tasks class = tasks>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

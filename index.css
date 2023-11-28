@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    background-color: lightblue;
+    padding: 20px;
+    font-size: x-large;
+    color: white;
+    text-align: center;
+}
+
+.inputbox {
+    background-color: rgb(91, 124, 134);
+    padding: 10px;
+    font-size: large;
+    color: white;
+    text-align: center;
+}
+
+.item {
+    padding: 12px 12px 12px 40px;
+    background-color: lightskyblue;
+    font-size: x-large;
+    text-align: left;
+    border-radius: 25px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    vertical-align: middle;
+
+}
+
+item {
+    display:flex;
+}
+
+.input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 200px;
+    height: 5px;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+.taskheader {
+    background-color: #3d87b5;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+.tasks {
+    background-color: #3d87b5;
+    padding: 5px;
+    font-size: large;
+    color: white;
+    text-align: center;
+
+}
+
+.checkbutton {
+    height: 25px;
+    width: 25px;
+    color: white;
+    padding: 15px 15px;
+    white-space: 5px;
+    margin-right: 10px;
+}
